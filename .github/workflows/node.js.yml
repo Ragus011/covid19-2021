@@ -4,7 +4,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '50 21 * * *' #北京时间5点50打卡
+    - cron: '50 16 * * *' #北京时间5点50打卡
   workflow_dispatch:
   watch:
     types: started
